@@ -1,0 +1,54 @@
+.track-card {
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  margin: 9px;
+}
+.image-genre-container {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  align-items: center;
+}
+.track-image {
+  height: 120px;
+  width: 120px;
+  margin-right: 12px;
+}
+.track-name {
+  font-weight: bold;
+  font-size: 17px;
+  font-family: 'roboto';
+  color: #ffffff;
+}
+.genre {
+  font-weight: bold;
+  font-size: 13px;
+  font-family: 'roboto';
+  color: #3b82f6;
+}
+.duration-container {
+  width: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.duration {
+  font-weight: bold;
+  font-size: 17px;
+  font-family: 'roboto';
+  color: white;
+}
+.delete-button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.delete-icon {
+  font-size: 20px;
+}
